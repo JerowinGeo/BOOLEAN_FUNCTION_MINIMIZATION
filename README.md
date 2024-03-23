@@ -12,11 +12,6 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
 Hardware – PCs, Cyclone II , USB flasher
 
-**Software – Quartus prime**
-
-**Theory**
-
-**Logic Diagram**
 
 **Procedure**
 
@@ -31,20 +26,38 @@ Hardware – PCs, Cyclone II , USB flasher
 5.	For different input combinations generate the timing diagram.
 
 
-**Program:**
+**Program:** 
+```
+Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+Developed by: Jerowin Geo J A
+RegisterNumber:212223100016
 
-Developed by: RegisterNumber:*/
-
-
-**RTL realization**
+module booleanfunction_top(a,b,c,d,w,x,y,z,f1,f2);
+input a,b,c,d,w,x,y,z;
+output f1,f2;
+wire adash,bdash,cdash,ddash,ydash,p,q,r,s,t,u;
+not(adash,a);
+not(bdash,b);
+not(cdash,c);
+not(ddash,d);
+not(ydash,y);
+and(p,bdash,ddash);
+and(q,adash,b,d);
+and(r,a,b,cdash);
+or(f1,p,q,r);
+//type code for f2 as like f1
+endmodule
+```
 
 **Output:**
 
-**RTL**
+**RTL realization**
+![image](https://github.com/JerowinGeo/BOOLEAN_FUNCTION_MINIMIZATION/assets/147139744/483b49ca-06df-410c-ac4f-db2da4b7ee40)
 
-**Timing Diagram**
+**RTL**
+![image](https://github.com/JerowinGeo/BOOLEAN_FUNCTION_MINIMIZATION/assets/147139744/049b8814-7c33-4daf-bb6f-31bdbd20fda7)
+
 
 **Result:**
 
