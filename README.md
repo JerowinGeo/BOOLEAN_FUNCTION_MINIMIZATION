@@ -50,14 +50,13 @@ or(f1,p,q,r);
 endmodule
 ```
 
-**Output:**
-
 **RTL realization**
-![image](https://github.com/JerowinGeo/BOOLEAN_FUNCTION_MINIMIZATION/assets/147139744/483b49ca-06df-410c-ac4f-db2da4b7ee40)
 
-**RTL**
-![image](https://github.com/JerowinGeo/BOOLEAN_FUNCTION_MINIMIZATION/assets/147139744/049b8814-7c33-4daf-bb6f-31bdbd20fda7)
+![image](https://github.com/JerowinGeo/BOOLEAN_FUNCTION_MINIMIZATION/assets/147139744/b7730951-822d-41f3-9cb5-f8d825f7430c)
 
+**Output**
+
+![image](https://github.com/JerowinGeo/BOOLEAN_FUNCTION_MINIMIZATION/assets/147139744/21fc750c-9f02-444d-b74f-c126f837c052)
 
 **Result:**
 
