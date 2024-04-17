@@ -26,13 +26,11 @@ Hardware – PCs, Cyclone II , USB flasher
 5.	For different input combinations generate the timing diagram.
 
 
-**Program:** 
-```
+**Program:**
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
-
 Developed by: Jerowin Geo J A
 RegisterNumber:212223100016
-
+```
 module booleanfunction_top(a,b,c,d,w,x,y,z,f1,f2);
 input a,b,c,d,w,x,y,z;
 output f1,f2;
@@ -50,13 +48,18 @@ or(f1,p,q,r);
 endmodule
 ```
 
+**Logic symbol & Truthtable:**
+![image](https://github.com/JerowinGeo/BOOLEAN_FUNCTION_MINIMIZATION/assets/147139744/21393ce6-ed54-467f-9924-8777d6cc9eab)
+
+![image](https://github.com/JerowinGeo/BOOLEAN_FUNCTION_MINIMIZATION/assets/147139744/a9584007-d2ac-4a78-9f26-85bf0a78c5bf)
+
 **RTL realization**
+![image](https://github.com/JerowinGeo/BOOLEAN_FUNCTION_MINIMIZATION/assets/147139744/999a034a-713f-41a2-88f0-f2c46110b786)
 
-![image](https://github.com/JerowinGeo/BOOLEAN_FUNCTION_MINIMIZATION/assets/147139744/b7730951-822d-41f3-9cb5-f8d825f7430c)
+![image](https://github.com/JerowinGeo/BOOLEAN_FUNCTION_MINIMIZATION/assets/147139744/863f6c15-870c-4cca-bf21-8ef1ed348f18)
 
-**Output**
-
-![image](https://github.com/JerowinGeo/BOOLEAN_FUNCTION_MINIMIZATION/assets/147139744/21fc750c-9f02-444d-b74f-c126f837c052)
+**Output:**
+![image](https://github.com/JerowinGeo/BOOLEAN_FUNCTION_MINIMIZATION/assets/147139744/3f37ff9e-1be1-44f3-8cd4-b01a270fd186)
 
 **Result:**
 
